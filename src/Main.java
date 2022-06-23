@@ -4,15 +4,15 @@ public class Main {
         System.out.println("El resultado de la suma es: "+res);
 
         //COCHE OBJECT
-        Coche miCoche;
-        miCoche = new Coche();
+        Coche miCoche = new Coche();
         miCoche.getDoors();
-        System.out.println("El objeto tiene: "+miCoche.doors+" puertas.");
+        miCoche.getDoors();
+        System.out.println("El coche tiene: "+miCoche.doors+" puertas.");
     }
     //PART 1
     public static int Sumar (int a, int b, int c) {
         var resultado = a + b +c;
-        return (resultado);
+        return resultado;
     }
     //PART 2
     public static class Coche {
